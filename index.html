@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- Icono -->
+    <link rel="shortcut icon" href="/imagenes/favicon-16x16.png" type="image/x-icon">
+    <!-- Otra letra -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://kit.fontawesome.com/11ead746a1.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
+    <title>Portfolio: Dante Aguilar</title>
+
+</head>
+<body>
+
+    <div class="scroll-up-boton">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+   <div class="loader-fondo">
+       <div class="loader"></div>
+   </div>
+
+    <!-- Barra Navegacion -->
+    
+    <nav class="barra-navegacion">
+        <div class="max-width">
+            <div class="logo"><h1>PORT<span>FOLIO</span></h1></div>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobremi">Sobre Mí</a></li>
+                <li><a href="#servicios">Mis Servicios</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <div class="menu-boton">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Seccion Home -->
+
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-contenido">
+                <div class="texto1">Hola, Mi nombre es</div>
+                <div class="texto2">Dante Aguilar</div>
+                <div class="texto3">y soy <span class="typing"></span></div>
+                <a href="#contacto">Contáctame</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seccion Sobre Mi -->
+
+    <section class="sobremi" id="sobremi">
+        <div class="max-width">
+            <h2 class="titulo-sobremi">
+                Sobre Mí
+            </h2>
+            <div class="sobremi-contenido">
+                <div class="columna izq">
+                    <div class="caja-foto">
+                        <div class="cajita">
+                            <img src="./imagenes/dantefotoc.jpg" alt="portfolio">
+                        </div>
+                    </div>  
+                </div>
+                <div class="columna der">
+                    <div class="texto">Soy Dante. Soy <span class="typing-2"></span></div>
+                    <p>Vivo en Buenos Aires (CABA), Argentina. Tengo 21 años. Busco desarrollar mis conocimientos, resolviendo problemas con paciencia, aprendiendo de mis pares, ya sea para uso personal o para satisfacer las necesidades de otras personas. Estudio en la Universidad Tecnológica Nacional (UTN), encontrándome actualmente en el tercer año de la carrera de Ingeniería en Sistemas de Información.</p>
+                    <p>Por otro lado, me gusta el fútbol, ir al gimnasio y los videojuegos.</p>
+                    <a href="pdf/CV Aguilar Dante Leandro.pdf" target="blank">Descargar CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Seccion Mis Servicios -->
+
+   <section class="servicios" id="servicios">
+    <div class="max-width">
+        <h2 class="titulo-servicios">
+            Mis Servicios
+        </h2>
+        <div class="servicios-contenido">
+            <div class="carta">
+                <div class="caja">
+                    <i class="fas fa-paint-brush"></i>
+                    <div class="texto-servicios">Diseño de Sitios Web</div>
+                    <p>Creación de sitios web adaptables a diferentes dispositivos con interfaz agradable para el usario</p>
+                </div>
+            </div>
+
+            <div class="carta">
+                <div class="caja">
+                    <i class="fas fa-solid fa-computer"></i>
+                    <div class="texto-servicios">Servicio Técnico</div>
+                    <p>Diseño y desarrollo de Base de datos, Instalación de SO Windows, Particiones de Disco Duro</p>
+                </div>
+            </div>
+
+            <div class="carta">
+                <div class="caja">
+                    <i class="fas fa-code"></i>
+                    <div class="texto-servicios">Testing</div>
+                    <p>Diseño y ejecución integral de pruebas, Seguimiento de procesos, Control de calidad y más </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+     <!-- Seccion Habilidades -->
+
+    <section class="habilidades" id="habilidades">
+        <div class="max-width">
+            <h2 class="titulo-hab">Habilidades</h2>
+            <div class="carousel owl-carousel">
+                <div class="carta">
+                    <div class="caja">
+                        <img src="imagenes/foto-html.webp" alt="html">
+                        <div class="texto">HTML</div>
+                        <p>100%</p>
+                    </div>
+                </div>
+                <div class="carta">
+                    <div class="caja">
+                        <img src="imagenes/foto-css.jpg" alt="css">
+                        <div class="texto">CSS</div>
+                        <p>100%</p>
+                    </div>
+                </div>
+                <div class="carta">
+                    <div class="caja">
+                        <img src="imagenes/foto-javascript.png" alt="javascript">
+                        <div class="texto">JavaScript</div>
+                        <p>100%</p>
+                    </div>
+                </div> 
+                <div class="carta">
+                    <div class="caja">
+                        <img src="imagenes/foto-java.webp" alt="java">
+                        <div class="texto">Java</div>
+                        <p>80%</p>
+                    </div>
+                </div>
+                <div class="carta">
+                    <div class="caja">
+                        <img src="imagenes/foto-c++.jpg" alt="c++">
+                        <div class="texto">C++</div>
+                        <p>100%</p>
+                    </div>
+                </div>
+                <div class="carta">
+                    <div class="caja">
+                        <img src="imagenes/foto-visual.png" alt="visual">
+                        <div class="texto">Visual Basic .NET</div>
+                        <p>100%</p>
+                    </div>
+                </div>
+                <div class="carta">
+                    <div class="caja">
+                        <img src="imagenes/foto-sql.png" alt="sql">
+                        <div class="texto">MySQL</div>
+                        <p>100%</p>
+                    </div>
+                </div>
+                <div class="carta">
+                    <div class="caja">
+                        <img src="imagenes/foto-autocad.jpg" alt="autocad">
+                        <div class="texto">AutoCAD 2D/3D</div>
+                        <p>100%</p>
+                    </div>
+                </div>
+                <div class="carta">
+                    <div class="caja">
+                        <img src="imagenes/foto-git.jpg" alt="git">
+                        <div class="texto">Git</div>
+                        <p>80%</p>
+                    </div>
+                </div>
+                <div class="carta">
+                    <div class="caja">
+                        <img src="imagenes/foto-github.webp" alt="github">
+                        <div class="texto">GitHub</div>
+                        <p>100%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seccion Contacto -->
+    
+    <section class="contacto" id="contacto">
+        <div class="max-width">
+            <h2 class="titulo-contacto">Contacto</h2>
+            <div class="contacto-contenido">
+                <div class="columna izq">
+                    <div class="texto">Contáctame</div>
+                    <p>Podés contactarme a través de este formulario, por mail, o bien a través de las redes sociales que se encuentran debajo.</p>
+                    <div class="iconos">
+                        
+                        <div class="fila">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Mail</div>
+                                <div class="subtitulo">danteaguilar00@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="columna der">
+                    <div class="texto">Mándame un mensaje</div>
+                    <form name="formulario" action="#">
+                        <div class="campos">
+                            <div class="campo nombre">
+                                <input type="text" name="nombre" placeholder="Nombre" autocomplete="off" required>
+                            </div>
+                            <div class="campo email">
+                                <input type="text" name="email" id="email" placeholder="Email" autocomplete="off" required>
+                            </div>
+                        </div>
+                            <div class="campo">
+                                <input type="text" name="asunto" placeholder="Asunto" autocomplete="off" required>
+                            </div>
+                            <div class="campo textarea">
+                                <textarea name="mensaje" cols="30" rows="10" placeholder="Mensaje" autocomplete="off" required></textarea>
+                            </div>
+                            <div class="boton">
+                                <button name="button" type="button" onclick="formulario_envia()">Enviar</button>
+                            </div>
+                    </form>
+                </div>
+            </div> 
+        </div>
+    </section>
+
+
+
+   <!-- Seccion Footer -->
+
+   <footer>
+
+        <div class="iconos">
+            <a href="https://www.linkedin.com/in/dante-aguilar-64616a217/" target="blank">
+                <div class="capa">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span class="fab fa-linkedin"></span>
+                </div>
+                <div class="texto-footer">LinkedIn</div>
+            </a>
+            <a href="https://www.instagram.com/danteeaguilar/" target="blank">
+                <div class="capa">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span class="fab fa-instagram"></span>
+                </div>
+                <div class="texto-footer">Instagram</div>
+            </a>
+            <a href="https://wa.me/5491144159045" target="blank">
+                <div class="capa">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span class="fab fa-whatsapp"></span>
+                </div>
+                <div class="texto-footer">WhatsApp</div>
+            </a>
+            <a href="https://github.com/DanteAguilar10" target="blank">
+                <div class="capa">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span class="fab fa-github"></span>
+                </div>
+                <div class="texto-footer">GitHub</div>
+            </a>
+        </div>
+
+        <br><br><br>
+
+        <span>Creado por <a href="#home">Dante Aguilar</a> | <span class="far fa-copyright"></span> 2022 Todos los derechos reservados</span>
+
+   </footer>
+
+   <!-- Scroll Reveal -->
+   <script src="https://unpkg.com/scrollreveal"></script>
+
+   <!-- Link a JavaScript -->
+    <script src="./js/script.js"></script>
+
+</body>
+</html>
